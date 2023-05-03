@@ -5,8 +5,8 @@ name: Eslint Lint
 
 on:
   push:
-    # branches:
-    #   - /^feature-*./
+    branches:
+      - /^feature-*./
 
 jobs:
   Default:
