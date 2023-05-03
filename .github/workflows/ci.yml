@@ -1,5 +1,8 @@
 name: Deploy Page
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
@@ -21,7 +24,7 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           ACCESS_TOKEN: ${{ secrets.GIT_TOKEN }}
           BRANCH: gh-pages
