@@ -3,10 +3,11 @@
 
 name: Eslint Lint
 
+# 指定以 feature 开头的分支才会触发
 on:
   push:
     branches:
-      - "^feature-*."
+      - 'feature-**'
 
 jobs:
   Default:
