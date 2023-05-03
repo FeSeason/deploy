@@ -9,7 +9,7 @@ on:
       - dev
 
 jobs:
-  Default:
+  build and deploy pages:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
