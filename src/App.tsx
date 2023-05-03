@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  // console.log(5555)
+  console.log(5555)
   return (
     <div className="App">
       <header className="App-header">
